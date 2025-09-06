@@ -56,7 +56,7 @@ const PortfolioWebsite = () => {
     canvas.height = window.innerHeight;
 
     const particles = [];
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 150; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
@@ -97,7 +97,7 @@ const PortfolioWebsite = () => {
       window.removeEventListener('resize', handleResize);
       if (animationId) cancelAnimationFrame(animationId);
     };
-  }, [isDarkMode]);
+  }, [isDarkMode, isLoading]);
 
   const toggleDarkMode = () => setIsDarkMode(prev => !prev);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
