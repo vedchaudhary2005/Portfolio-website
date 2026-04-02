@@ -7,6 +7,15 @@ const Portfolio = ({ theme }) => {
 
   const projects = [
     { 
+    id: 4,
+    title: 'Chat-Application',
+    category: 'web',
+    tech: 'ReactJs, MongoDB, Express, NodeJs',
+    image: 'from-orange-400 to-green-400',
+    liveUrl:'https://chatapp-225s.onrender.com/',
+    github:'https://github.com/vedchaudhary2005/Realtime-ChatApp'
+  },
+    { 
       id: 1,
       title: 'Ai-Assistant', 
       category: 'web', 
@@ -16,31 +25,32 @@ const Portfolio = ({ theme }) => {
       github: 'https://github.com/vedchaudhary2005/Ai-assistant'
     },
     { 
-      id: 2,
-      title: 'Landing-page',
-      category: 'design',
-      tech: 'HTML, CSS , JavaScript',
-      image: 'from-green-400 to-blue-400',
-      github: 'https://github.com/vedchaudhary2005/landing-page',
-      liveUrl: 'https://pagessssssssssssssssssssssssssssssss.netlify.app/'
-    },
-    { 
       id: 3,
-      title: 'Portfolio Design',
-      category: 'design,web, mobile',
-      tech: 'UI/UX Design', 
-      image: 'from-pink-400 to-red-400',
-      liveUrl: 'https://vedportfolioo.netlify.app/',
-      github: ''
-    },
-    { 
-      id: 4,
       title: 'Todo-list',
       category: 'web,mobile',
       tech: 'ReactJs, TailwindCSS',
       image: 'from-yellow-400 to-red-400',
       liveUrl:'https://planifys.netlify.app/',
       github:'https://github.com/vedchaudhary2005/Todo-List'
+    },
+    { 
+      id: 5,
+      title: 'Password-Manager',
+      category: 'web,mobile',
+      tech: 'ReactJs, TailwindCSS',
+      image: 'from-yellow-400 to-blue-400',
+      liveUrl:'https://securaa.netlify.app/',
+      github:'https://github.com/vedchaudhary2005/Todo-List'
+    },
+  
+    { 
+      id: 2,
+      title: 'Portfolio Design',
+      category: 'design,web, mobile',
+      tech: 'UI/UX Design', 
+      image: 'from-pink-400 to-red-400',
+      liveUrl: 'https://vedportfolioo.netlify.app/',
+      github: ''
     },
   ];
 

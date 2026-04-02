@@ -6,7 +6,6 @@ const Footer = ({ isDarkMode }) => {
   const socialLinks = [
     { icon: Twitter, href: 'https://x.com/CodexVelocity_', label: 'Twitter' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/ved-chaudhary-179343352/', label: 'LinkedIn' },
-    { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
     { icon: Github, href: 'https://github.com/vedchaudhary2005', label: 'GitHub' },
     { icon: ImWhatsapp, href: 'https://wa.me/8429366583', label: 'WhatsApp' }
   ];
@@ -35,7 +34,7 @@ const Footer = ({ isDarkMode }) => {
           </div>
           <div className="border-t border-gray-800 pt-8">
             <p className="text-gray-400">
-              © 2025 Portfolio. All rights reserved. Built with React & Tailwind CSS.
+              © 2026 Portfolio. All rights reserved. Built with React & Tailwind CSS.
             </p>
           </div>
         </div>

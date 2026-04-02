@@ -4,11 +4,12 @@ const Skills = ({ isDarkMode, theme }) => {
   const skills = [
     { name: 'HTML', level: 95 },
     { name: 'CSS', level: 90 },
-    { name: 'JavaScript', level: 75 },
+    { name: 'JavaScript', level: 90 },
     { name: 'Tailwind', level: 85 },
     { name: 'React JS', level: 70 },
     { name: 'Express/Node.Js', level: 90 },
-    { name: 'Next Js', level: 80 }
+    { name: 'Github', level: 95 },
+    { name: 'Git', level: 90 },
   ];
 
   return (

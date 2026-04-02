@@ -14,9 +14,9 @@ const About = ({ isDarkMode, theme }) => {
         
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            { icon: Code, title: 'Frontend Development', desc: 'HTMl, CSS, JavaScript, Tailwind' },
-            { icon: Award, title: 'Backend Development', desc: 'Node.js, PostgreSQL, MongoDB' },
-            { icon: Eye, title: 'UI/UX Design', desc: 'Figma, Framer, Responsive Design' }
+            { icon: Code, title: 'Frontend Development', desc: 'HTMl, CSS, JavaScript, TailwindCSS' },
+            { icon: Award, title: 'Backend Development', desc: 'Node.js, Express, MongoDB' },
+            { icon: Eye, title: 'UI/UX Design', desc: 'Responsive Design' }
           ].map((skill, index) => {
             const IconComponent = skill.icon;
             return (
