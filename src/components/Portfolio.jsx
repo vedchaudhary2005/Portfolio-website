@@ -45,12 +45,30 @@ const Portfolio = ({ theme }) => {
   
     { 
       id: 2,
-      title: 'Portfolio Design',
+      title: 'ChatBot using LangGraph',
+      category: 'design,web, mobile',
+      tech: 'UI/UX Design', 
+      image: 'from-pink-400 to-blue-400',
+      liveUrl: 'https://langgraphai.vercel.app/',
+      github: 'https://github.com/vedchaudhary2005/LangGraph-ChatBot'
+    },
+      { 
+      id: 2,
+      title: 'RAG-PDF',
       category: 'design,web, mobile',
       tech: 'UI/UX Design', 
       image: 'from-pink-400 to-red-400',
-      liveUrl: 'https://vedportfolioo.netlify.app/',
-      github: ''
+      liveUrl: 'https://ragpdfgen.vercel.app/',
+      github: 'https://github.com/vedchaudhary2005/RAG-PDF'
+    },
+      { 
+      id: 2,
+      title: 'Gemini-Ai-Assistant',
+      category: 'design,web, mobile',
+      tech: 'UI/UX Design', 
+      image: 'from-pink-400 to-red-400',
+      liveUrl: 'https://geminiipro.vercel.app/signup',
+      github: 'https://github.com/vedchaudhary2005/Gemini'
     },
   ];
 
