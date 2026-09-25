@@ -10,7 +10,7 @@ const Portfolio = ({ theme }) => {
     id: 2,
     title: 'RAG-PDF',
     category: 'design,web, mobile',
-    tech: 'UI/UX Design', 
+    tech: 'Python,GROQ-AI,FASTAPI', 
     image: 'from-pink-400 to-gray-400',
     liveUrl: 'https://ragpdfgen.vercel.app/',
     github: 'https://github.com/vedchaudhary2005/RAG-PDF'
@@ -56,7 +56,7 @@ const Portfolio = ({ theme }) => {
       id: 2,
       title: 'ChatBot using LangGraph',
       category: 'design,web, mobile',
-      tech: 'UI/UX Design', 
+      tech: 'Python,GROQ-AI,FASTAPI,LangGraph', 
       image: 'from-pink-400 to-blue-400',
       liveUrl: 'https://langgraphai.vercel.app/',
       github: 'https://github.com/vedchaudhary2005/LangGraph-ChatBot'
