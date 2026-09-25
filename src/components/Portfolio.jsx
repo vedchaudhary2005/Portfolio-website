@@ -7,6 +7,15 @@ const Portfolio = ({ theme }) => {
 
   const projects = [
     { 
+    id: 2,
+    title: 'RAG-PDF',
+    category: 'design,web, mobile',
+    tech: 'UI/UX Design', 
+    image: 'from-pink-400 to-gray-400',
+    liveUrl: 'https://ragpdfgen.vercel.app/',
+    github: 'https://github.com/vedchaudhary2005/RAG-PDF'
+  },
+    { 
     id: 4,
     title: 'Chat-Application',
     category: 'web',
@@ -54,19 +63,10 @@ const Portfolio = ({ theme }) => {
     },
       { 
       id: 2,
-      title: 'RAG-PDF',
-      category: 'design,web, mobile',
-      tech: 'UI/UX Design', 
-      image: 'from-pink-400 to-red-400',
-      liveUrl: 'https://ragpdfgen.vercel.app/',
-      github: 'https://github.com/vedchaudhary2005/RAG-PDF'
-    },
-      { 
-      id: 2,
       title: 'Gemini-Ai-Assistant',
       category: 'design,web, mobile',
       tech: 'UI/UX Design', 
-      image: 'from-pink-400 to-red-400',
+      image: 'from-pink-400 to-black-400',
       liveUrl: 'https://geminiipro.vercel.app/signup',
       github: 'https://github.com/vedchaudhary2005/Gemini'
     },
